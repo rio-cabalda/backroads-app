@@ -11,7 +11,6 @@ const Tours = () =>{
             <h2>featured <span>tours</span></h2>
             </div> */}
             <Title title='featured' subTitle='tours' />
-            <TourList />
             <div className="section-center featured-center">
                     {tours.map((tour)=>{
                         return (
